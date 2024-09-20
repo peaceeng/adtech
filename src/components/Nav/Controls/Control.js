@@ -14,11 +14,6 @@ const Control = () => {
         <div className="control__bar__container">
             <div className="controls__container">
                 <div className="control">
-                    <Link to="/account/login">
-                        <PersonOutlineIcon color="black" size="large" sx={{ width: '35px'}}/>
-                    </Link>
-                </div>
-                <div className="control">
                     <Link to="/wishlist">
                         <Badge badgeContent={wishItems.items.length} color="error">
                             <FavoriteBorderIcon color="black" sx={{ width: '35px'}}/>
