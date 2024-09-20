@@ -7,6 +7,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
+import { Icon } from '@mui/material';
 
 const Footer = () => {
     return ( 
@@ -37,6 +38,9 @@ const Footer = () => {
                             <h1>Contact Us</h1>
                         </div>
                         <ul className="footer__contacts">
+                            <li className="footer__contact">
+                                <Icon /> <span>RIZAL FAUZI AKBAR</span>
+                            </li>
                             <li className="footer__contact">
                                 <LocalPhoneIcon /> <span>+13212000164</span>
                             </li>
