@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 import { useContext } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { SearchContext } from '../../Context/SearchContext';
@@ -8,9 +8,9 @@ const Search = () => {
     const search = useContext(SearchContext)
     const [ setSearchParam ] = useSearchParams()
 
-    const searchQuery = {
-        query: search.searchQuery
-    }
+    const searchQuery = useMemo(() => {
+        return { query: search.searchQuery };
+    }, [search])
 
     useEffect(() => {
         setSearchParam(searchQuery, { replace: true })
