@@ -47,7 +47,9 @@ const Footer = () => {
                                 <EmailIcon /> <span>muhaniasafani@gmail.com</span>
                             </li>
                             <li className="footer__contact">
-                                <LocationOnIcon /> <span>GG. PASANTRENT RT 006/003, BANDUNG 40287, INDONESIA</span>
+                                <LocationOnIcon /> <span>GG. PASANTREN RT. 006/003</span><br/>
+                                <span style={{marginLeft: 28}}>KUJANGSARI BANDUNG KIDUL</span><br/>
+                                <span style={{marginLeft: 28}}>BANDUNG 40287, INDONESIA</span><br/>
                             </li>
                         </ul>
                     </div>

@@ -16,6 +16,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    padding-top: 10px;
 }
 
 .footer__help__container {
@@ -133,5 +134,5 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin-top: 30px;
 }
