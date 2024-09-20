@@ -6,7 +6,7 @@ import './index.css'
 
 const Search = () => {
     const search = useContext(SearchContext)
-    const [ searchParam, setSearchParam ] = useSearchParams()
+    const [ setSearchParam ] = useSearchParams()
 
     const searchQuery = {
         query: search.searchQuery
@@ -14,7 +14,7 @@ const Search = () => {
 
     useEffect(() => {
         setSearchParam(searchQuery, { replace: true })
-    }, [searchQuery.query])
+    }, [searchQuery, searchQuery.query, setSearchParam])
 
     return ( 
         <div className="search__container">
