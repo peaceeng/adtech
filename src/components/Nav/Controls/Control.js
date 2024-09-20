@@ -1,5 +1,4 @@
 import './Control.css'
-import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import Badge from '@mui/material/Badge';
 import { Link } from 'react-router-dom';
