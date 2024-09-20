@@ -44,7 +44,7 @@ const Footer = () => {
                                 <EmailIcon /> <span>muhaniasafani@gmail.com</span>
                             </li>
                             <li className="footer__contact">
-                                <LocationOnIcon /> <span>GG. PASANTRENT RT, BANDUNG, INDONESIA</span>
+                                <LocationOnIcon /> <span>GG. PASANTRENT RT 006/003, BANDUNG, INDONESIA, 40287</span>
                             </li>
                         </ul>
                     </div>
