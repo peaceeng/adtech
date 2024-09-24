@@ -16,6 +16,10 @@ a:hover {
     align-items: center;
 }
 
+.selected {
+    background-color: rgba(0, 183, 255, 0.5);
+}
+
 .nav__bottom__container a:hover {
     color: rgb(113, 113, 113);
 }
