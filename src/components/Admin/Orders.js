@@ -45,7 +45,7 @@ const Orders = () => {
     if(token !== 'JWTAdminToken') {
       navigate("/account/login")
     }
-  }, []);
+  }, [navigate]);
 
   return (
     
